@@ -15,7 +15,7 @@
     zmk,battery = &vbatt;
 	};
 
-  ext_power: ext-power {
+  ext_power_ctrl: ext-power {
         compatible = "zmk,ext-power-generic";
         control-gpios = <&gpio1 9 GPIO_ACTIVE_HIGH>; // 替换为你的实际引脚
         init-delay-ms = <100>; // 可选，初始化延迟
