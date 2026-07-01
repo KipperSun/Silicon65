@@ -1,8 +1,8 @@
 # [silicon65]
 
-A 80% ANSI keyboard designed by Geepon.
+A 65% ANSI keyboard designed by Geepon.
 
-This keyboard uses the "Gateron low profile" switch
+This keyboard uses the regular MX switch
 ## Features
 
 - Uses nRF52840 CoreBoard_Micro
