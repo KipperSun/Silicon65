@@ -1,8 +1,18 @@
-# [silicon65]
+# Silicon65
 
-A 65% ANSI keyboard designed by Geepon.
+An open source 65% ANSI keyboard designed by KipperSun.
 
-This keyboard uses the regular MX switch
-## Features
+Based on [ZMK](https://github.com/zmkfirmware/zmk).
 
-- Uses nRF52840 CoreBoard_Micro
+Support Bluetooth & USB double modes.
+
+
+# Features
+
+- Use nRF52840 CoreBoard_Micro.
+- Use the regular MX switch.
+- Use 69 WS2812 RGB lights.
+
+
+# Change this keymap
+By forking this repository and change your keymap [here](https://nickcoutsos.github.io/keymap-editor/).
