@@ -17,13 +17,13 @@
 
   ext_power_ctrl: ext-power {
         compatible = "zmk,ext-power-generic";
-        control-gpios = <&gpio1 9 GPIO_ACTIVE_HIGH>; // 替换为你的实际引脚
+        control-gpios = <&gpio1 9 GPIO_ACTIVE_HIGH>; // DCDC使能引脚
         init-delay-ms = <100>; // 可选，初始化延迟
   };
 
 
   vbatt: vbatt {
-      compatible = "zmk,battery-nrf-vddh";
+      compatible = "zmk,battery-nrf-vddh"; //使用52840的VDDH作为电池的电量ADC
   };
 
 
@@ -37,7 +37,7 @@
 			, <&gpio0  9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&gpio0 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-      , <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+    		, <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			;
 		col-gpios
 			= <&gpio0  8 GPIO_ACTIVE_HIGH>
