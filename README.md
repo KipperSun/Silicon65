@@ -6,6 +6,8 @@ Based on [ZMK](https://github.com/zmkfirmware/zmk).
 
 Support Bluetooth & USB double modes.
 
+Support keyboard case: KBD67V2, KBD67V3, KBD67lite V1-V4, D65, Margo65, KBD Blade 65
+
 
 # Features
 
