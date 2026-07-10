@@ -1,4 +1,4 @@
-# Silicon65
+# silicon65
 
 An open source 65% ANSI keyboard designed by KipperSun.
 
