@@ -19,5 +19,8 @@ Support keyboard case: KBD67V2, KBD67V3, KBD67lite V1-V4, D65, Margo65, KBD Blad
 
 ![KLE](Assets/layout-matrix.png)
 
+# Layout and Matrix
+The [raw data](Assets/keyboard-layout.json) can be opened [here](https://www.keyboard-layout-editor.com/#/).
+
 # Change this keymap
 By forking this repository and change your keymap [here](https://nickcoutsos.github.io/keymap-editor/).
