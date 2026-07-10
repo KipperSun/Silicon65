@@ -2,7 +2,8 @@
 
 A 65% ANSI keyboard designed by Geepon.
 
-Source code for ZMK space
+Source code for ZMK codespace.
+Totally same with this repository.
 
 This keyboard uses the regular MX switch
 ## Features
